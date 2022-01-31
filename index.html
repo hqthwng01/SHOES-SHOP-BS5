@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>SHOP SNEAKER</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 --> 
+    <link rel="stylesheet" href="bootstrap-5/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Boxicon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+</head>
+
+  <body>
+
+    <!--header-->
+    <div class="header">
+           <!--top bar--> 
+      <nav class="navbar navbar-light bg-light fixed">
+        <div class="container">
+          <a class="navbar-brand d-flex justify-content-center" href="#">
+            <img src="img/flag.png" width="35" height="20" alt="#">
+          </a>
+  
+            <ul class="nav nav-pills flex-wrap ">
+              <li class="item-css nav-item px-2">Tài Khoản</li>
+              <li class="item-css nav-item px-2">Giỏ Hàng</li>
+            </ul>
+        </div>
+      </nav>
+
+        <!--inner bar-->
+        <nav class="innerbar navbar navbar-expand-lg ">
+          <div class="container">
+            <a class="logo me-5 navbar-brand justify-content-between align-items-center" href="#">
+              <i class='bx bx-baguette'></i>
+              <span class="text-uppercase txt-sneaker">Sneakers</span>
+            </a>
+            <div class="navbar">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 navb-item" id="myLinks">
+                <li class="inner-item nav-item">
+                  <a class="Close-mbm" href="javascript:void(0)" onclick="myFunction()"><i class='bx bx-x'></i></a>
+                </li>
+                <li class="inner-item nav-item">
+                  <a class="nav-link text-uppercase" aria-current="page" href="">Trang Chủ</a>
+                </li>
+                <li class="inner-item nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    SẢN PHẨM
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+
+                <li class="inner-item nav-item">
+                  <a class="nav-link text-uppercase" >Blog</a>
+                </li>
+
+                <li class="inner-item nav-item">
+                  <a class="nav-link text-uppercase" >Liên Hệ</a>
+                </li>
+
+              </ul>
+              <form class="innerform d-flex">
+                <input class="form-control me-2 xy-5" type="text" placeholder="Tìm kiếm.." aria-label="Search">
+                <button class="btn btn-outline" type="submit"><i class='bx bx-search-alt-2'></i></button>
+              </form>
+
+              <div class="right-icon">
+                <a href="#"><i class='bx bx-cart'></i></a>
+                <a href="#"><i class='bx bx-user'></i></a>
+              </div>
+
+              <div class="mobile-menu">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class='bx bx-menu'></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </div>
+
+    
+    <!--carousel-->
+    <div id="carouselExampleIndicators" class="vh-50 carousel slide slider" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/banner-july-1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/banner-july-2.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon btn-prev" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon btn-next" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--products hot-->
+    <div class="section-product container mt-5">
+      <div class="d-flex justify-content-between align-items-center mb-3"> <span class="text-product-news">Sản Phẩm Mới</span> <span class="custom-badge text-uppercase">Xem Thêm</span> </div>
+      <div class="row">
+          <div class="col-md-4 mb-3">
+              <div class="card-product">
+                  <div class="d-flex justify-content-between align-items-center">
+                      <div class="d-flex flex-row align-items-center time"> <i class="fa fa-clock-o"></i></div><i class='bx bx-heart mt-2 me-2'></i>
+                  </div>
+                  <div class="text-center"> <img src="img/product_2.jfif" width="250"> </div>
+                  <div class="text-center text-product">
+                      <h5>Nike Air Jordan</h5> <span class="price-value">2.000.000VNĐ</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-3">
+              <div class="card-product">
+                  <div class="d-flex justify-content-between align-items-center">
+                      <div class="d-flex flex-row align-items-center time"> <i class="fa fa-clock-o"></i></div><i class='bx bx-heart mt-2 me-2'></i>
+                  </div>
+                  <div class="text-center"> <img src="img/product_3.jfif" width="250"> </div>
+                  <div class="text-center text-product">
+                      <h5>Nike Air Jordan</h5> <span class="price-value">2.000.000VNĐ</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-3">
+              <div class="card-product">
+                  <div class="d-flex justify-content-between align-items-center">
+                      <div class="d-flex flex-row align-items-center time"> <i class="fa fa-clock-o"></i></div><i class='bx bx-heart mt-2 me-2'></i>
+                  </div>
+                  <div class="text-center"> <img src="img/product_4.jfif" width="250"> </div>
+                  <div class="text-center text-product">
+                      <h5>Nike Air Jordan</h5> <span class="price-value">2.000.000VNĐ</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <!--banner-->
+    <div class="banner-preview container align-items-center d-flex">
+      <div class="container">
+        <div class="row size-bn">
+          <div class="txt-title">
+            <span>Sản Phẩm Hot</span>
+          </div>
+          <div class="col-md-6 col-sm-6 col-12 set-bn">
+            <img src="img/banner-july-1.png" width="100%" height="100%" alt="">
+            <div class="txt-bn overlay d-flex align-items-center justify-content-center">
+              <h4>Giày Vans</h4>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-12 set-bn">
+            <img src="img/banner-july-2.png" width="100%" height="100%" alt="">
+            <div class="txt-bn overlay d-flex align-items-center justify-content-center">
+              <h4>Giày Newbalance</h4>
+          </div>
+        </div>
+      </div> 
+    </div>
+    </div>
+
+    <!--all product-->
+    <div class="section-product container mt-5">
+      <div class="d-flex justify-content-between align-items-center mb-3"> <span class="text-product-news">Sản Phẩm</span> <span class="custom-badge text-uppercase">Xem Thêm</span> </div>
+      <div class="row all-prod">
+          <div class="col-md-3 mb-3">
+              <div class="card-product">
+                  <div class="d-flex justify-content-between align-items-center">
+                      <div class="d-flex flex-row align-items-center time"> <i class="fa fa-clock-o"></i></div><i class='bx bx-heart mt-2 me-2'></i>
+                  </div>
+                  <div class="text-center"> <img src="img/product_2.jfif" width="250"> </div>
+                  <div class="text-center text-product">
+                      <h5>Nike Air Jordan</h5> <span class="price-value">2.000.000VNĐ</span>
+                  </div>
+                                  <div class="buy">
+                  <div class="cart">
+                    <i class='bx bxs-cart-add'></i>
+                  </div>
+                  <div class="btn-buy">
+                    <a href="#">
+                      <span>Mua Hàng</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-md-3 mb-3">
+              <div class="card-product">
+                  <div class="d-flex justify-content-between align-items-center">
+                      <div class="d-flex flex-row align-items-center time"> <i class="fa fa-clock-o"></i></div><i class='bx bx-heart mt-2 me-2'></i>
+                  </div>
+                  <div class="text-center"> <img src="img/product_3.jfif" width="250"> </div>
+                  <div class="text-center text-product">
+                      <h5>Nike Air Jordan</h5> <span class="price-value">2.000.000VNĐ</span>
+                  </div>
+                  <div class="buy">
+                    <div class="cart">
+                      <i class='bx bxs-cart-add'></i>
+                    </div>
+                    <div class="btn-buy">
+                      <a href="#">
+                        <span>Mua Hàng</span>
+                      </a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 mb-3">
+              <div class="card-product">
+                  <div class="d-flex justify-content-between align-items-center">
+                      <div class="d-flex flex-row align-items-center time"> <i class="fa fa-clock-o"></i></div><i class='bx bx-heart mt-2 me-2'></i>
+                  </div>
+                  <div class="text-center"> <img src="img/product_4.jfif" width="250"> </div>
+                  <div class="text-center text-product">
+                      <h5>Nike Air Jordan</h5> <span class="price-value">2.000.000VNĐ</span>
+                  </div>
+                  <div class="buy">
+                    <div class="cart">
+                      <i class='bx bxs-cart-add'></i>
+                    </div>
+                    <div class="btn-buy">
+                      <a href="#">
+                        <span>Mua Hàng</span>
+                      </a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card-product">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex flex-row align-items-center time"> <i class="fa fa-clock-o"></i></div><i class='bx bx-heart mt-2 me-2'></i>
+                </div>
+                <div class="text-center"> <img src="img/product_4.jfif" width="250"> </div>
+                <div class="text-center text-product">
+                    <h5>Nike Air Jordan</h5> <span class="price-value">2.000.000VNĐ</span>
+                </div>
+                <div class="buy">
+                  <div class="cart">
+                    <i class='bx bxs-cart-add'></i>
+                  </div>
+                  <div class="btn-buy">
+                    <a href="#">
+                      <span>Mua Hàng</span>
+                    </a>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="row all-prod">
+        <div class="col-md-3 mb-3">
+            <div class="card-product">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex flex-row align-items-center time"> <i class="fa fa-clock-o"></i></div><i class='bx bx-heart mt-2 me-2'></i>
+                </div>
+                <div class="text-center"> <img src="img/product_2.jfif" width="250"> </div>
+                <div class="text-center text-product">
+                    <h5>Nike Air Jordan</h5> <span class="price-value">2.000.000VNĐ</span>
+                </div>
+                                <div class="buy">
+                <div class="cart">
+                  <i class='bx bxs-cart-add'></i>
+                </div>
+                <div class="btn-buy">
+                  <a href="#">
+                    <span>Mua Hàng</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card-product">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex flex-row align-items-center time"> <i class="fa fa-clock-o"></i></div><i class='bx bx-heart mt-2 me-2'></i>
+                </div>
+                <div class="text-center"> <img src="img/product_3.jfif" width="250"> </div>
+                <div class="text-center text-product">
+                    <h5>Nike Air Jordan</h5> <span class="price-value">2.000.000VNĐ</span>
+                </div>
+                <div class="buy">
+                  <div class="cart">
+                    <i class='bx bxs-cart-add'></i>
+                  </div>
+                  <div class="btn-buy">
+                    <a href="#">
+                      <span>Mua Hàng</span>
+                    </a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card-product">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex flex-row align-items-center time"> <i class="fa fa-clock-o"></i></div><i class='bx bx-heart mt-2 me-2'></i>
+                </div>
+                <div class="text-center"> <img src="img/product_4.jfif" width="250"> </div>
+                <div class="text-center text-product">
+                    <h5>Nike Air Jordan</h5> <span class="price-value">2.000.000VNĐ</span>
+                </div>
+                <div class="buy">
+                  <div class="cart">
+                    <i class='bx bxs-cart-add'></i>
+                  </div>
+                  <div class="btn-buy">
+                    <a href="#">
+                      <span>Mua Hàng</span>
+                    </a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card-product">
+              <div class="d-flex justify-content-between align-items-center">
+                  <div class="d-flex flex-row align-items-center time"> <i class="fa fa-clock-o"></i></div><i class='bx bx-heart mt-2 me-2'></i>
+              </div>
+              <div class="text-center"> <img src="img/product_4.jfif" width="250"> </div>
+              <div class="text-center text-product">
+                  <h5>Nike Air Jordan</h5> <span class="price-value">2.000.000VNĐ</span>
+              </div>
+              <div class="buy">
+                <div class="cart">
+                  <i class='bx bxs-cart-add'></i>
+                </div>
+                <div class="btn-buy">
+                  <a href="#">
+                    <span>Mua Hàng</span>
+                  </a>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    </div>
+
+    <!--gift-->
+    <div class="gift-banner">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <a href="#">
+              <img class="img-gift" src="img/banner-horizontal.webp" width="100%" alt="">
+            </a>
+            <div class="txt-gift">
+              <h5>PUMA IS DABET</h5>
+              <span>GIFT NOW</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container footer-top">
+        <div class="row">
+          <div class="col">
+            <a href="#">
+              <i class='bx bx-package'></i>
+              <span>Miễn Phí Giao Hàng.</span>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#">
+              <i class='bx bxs-credit-card'></i>
+              <span>Kiểm Hàng Rồi Thanh Toán.</span>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#">
+              <i class='bx bx-support'></i>
+              <span>Hỗ Trợ Tư Vấn 24/7.</span>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#">
+              <i class='bx bx-font-size'></i>
+              <span>Đa Dạng Kích Thước.</span>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#">
+              <i class='bx bxs-mobile-vibration'></i>
+              <span>Mua Hàng Online.</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bot">
+        <div class="row">
+          <div class="col">
+            <div class="txt-brand">
+              <h5>SNEAKERS</h5>
+              <p>Sneakers.vn là shop chuyên cung cấp các dòng sản phẩm về giày như Adidas,Nike,Vans,Converse...</p>
+            </div>
+            <div class="tick">
+              <img src="img/bocongthuong.jpg" alt="#">
+            </div>
+          </div>
+          <div class="col">
+            <h5>DỊCH VỤ KHÁCH HÀNG</h5>
+            <ul class="ft-item">
+              <li>
+                <a href="#">
+                  <p>Hướng dẫn mua hàng</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Cách chọn size giày</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Vận chuyển hàng</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Đổi trả</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Chọn màu ưng ý</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5>THÔNG TIN</h5>
+            <ul class="ft-item">
+              <li>
+                <a href="#">
+                  <p>Về Sneakers</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Tài khoản</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Sản phẩm yêu thích</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Tài khoản</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Feedback</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5>SẢN PHẨM ƯU THÍCH</h5>
+            <ul class="ft-item">
+              <li>
+                <a href="#">
+                  <p>Giày sneaker</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Giày nike</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Giày adidas</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Giày vans</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5>ĐƠN VỊ VẬN CHUYỂN</h5>
+            <ul class="dvi-vanchuyen">
+              <li>
+                <img src="img/logo-grab.png" alt="#" width="40">
+              </li>
+              <li>
+                <img src="img/logo-ghn.png" alt="#" width="40">
+              </li>
+              <li>
+                <img src="img/logo-ghtt.png" alt="#" width="40">
+              </li>
+            </ul>
+            <div class="admin">
+              <a href="#">
+                <i class='bx bx-user'></i>
+                <span>Quản trị viên</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+      </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  
+  
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
+
+  </body>
+</html>
